@@ -1,7 +1,7 @@
 body {
 	background-color: #f9f9f9;
 	text-align: center;
-	font-family: sans-serif;
+	font-family: OpenSans, sans-serif;
 }
 .wrapper {
 	width:1060px;
@@ -10,6 +10,7 @@ body {
 	margin:0 auto;
 	padding:47px;
 	position:relative;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 .clearfix:after {
 	display: block;
@@ -30,7 +31,7 @@ header {
 }
 
 .top-menu li {
-	font-size:16px;
+	font-size:15px;
 	float:left;
 }
 .top-menu a {
@@ -46,7 +47,7 @@ header {
 	padding:17px 20px;
 }
 .top-menu li:last-child a {
-	padding-right:516px;
+	padding-right:506px;
 }
 .top-menu :hover {
 	border-left:0.5px solid #838383;
@@ -60,7 +61,7 @@ header {
 	text-align: left;
 }
 .left-menu li {
-	font-size:16px;
+	font-size:14px;
 	border:1px solid #c8c8c8;
 	width:240px;
 	margin-bottom:-1px;

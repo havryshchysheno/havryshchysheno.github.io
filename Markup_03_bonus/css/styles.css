@@ -1,14 +1,20 @@
 body {
 	text-align: center;
 	color:white;
+	font-family: Tahoma;
 }
 .wrapper {
 	margin:0 auto;
 	position:relative;
 	background: url('../img/bcg.jpg') no-repeat center center;
-	background-size:100% 100%;
+	background-size: cover;
 	height: 1324.5px;
 	width: 1440px;
+	overflow: hidden;
+}
+.container {
+	margin: 200px auto;
+	width:1350px;
 }
 .clearfix:after {
 	display: block;
@@ -17,26 +23,26 @@ body {
 }
 /*====LOGO====*/
 .logo {
-	margin:180px 0px 20px 100.5px;
 	position:relative;
 	float:left;
+	margin-bottom:20px;
+	padding-left: 25px;
 }
 .logo img[alt="text"] {
-	width:394.5px;
+	width:390px;
 }
 .logo img[alt="palm"] {
 	position:absolute;
 	top:-115px;
-	left: 210px;
+	left: 230px;
 	z-index: 0;
 	opacity: 0.15;
 	width:187.5px;
 }
+
 /*====CONTACTC====*/
 .contacts {
 	float:right;
-	margin-top:200px;
-	margin-right:70px;
 	font-size:16px;
 	text-align: left;
 }
@@ -51,9 +57,6 @@ body {
 	color:white;
 }
 /*====GALLERY====*/
-.gallery {
-	text-align: center;
-}
 .gallery li {
 	display:inline-block;
 	width:405px;
@@ -61,7 +64,6 @@ body {
 }
 .gallery img {
 	width:405px;
-	height: 283.5px;
 
 }
 .gallery span {
