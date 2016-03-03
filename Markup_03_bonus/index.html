@@ -4,18 +4,18 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/styles.css">
-	<link rel="stylesheet" href="css/styles-768.css">
+	<link rel="stylesheet" href="css/media.css">
 </head>
 <body>
-	<div class="wrapper">
-		<div class="container">
-		<div class="top-bar clearfix">
-			<div class="logo">
+	<div class="wrapper container">
+		<div class="container1">
+		<div class="top-bar clearfix row">
+			<div class="logo col-lg-4 col-md-4 col-xs-4">
 				<a href="#"><img src="img/logo.png" alt="text"></a>
-				<a href="#"><img src="img/logo-1.png" alt="palm"></a>
 			</div>
-			<div class="contacts">
+			<div class="contacts col-lg-3 col-md-3 col-xs-5">
 				<ul>
 					<li><span>Contact Us</span></li>
 					<li>+12 34 567 8910</li>
@@ -23,20 +23,27 @@
 				</ul>
 			</div>
 		</div>
-		<div class="gallery">
+		<div class="gallery row">
+
 			<ul>
-				<li><img src="img/India.jpg" alt="India" ><span class="first-line">India</span></li>
-				<li><img src="img/Nepal.jpg" alt="Nepal"><span class="first-line">Nepal</span></li>
-				<li><img src="img/Tibet.jpg" alt="Tibet"><span class="first-line">Tibet</span></li>
-				<li><img src="img/Bhutan.jpg" alt="Bhutan" class="first-line"><span>Bhutan</span></li>
-				<li><img src="img/SriLanka.jpg" alt="Sri Lanka" class="first-line"><span>Sri Lanka</span></li>
-				<li><img src="img/Maldives.jpg" alt="Maldives" class="first-line"><span>Maldives</span></li>
+				<li class="col-lg-4 col-md-4 col-xs-4"><img src="img/India.jpg" alt="India" ><span class="first-line">India</span></li>
+				<li class="col-lg-4 col-md-4 col-xs-4"><img src="img/Nepal.jpg" alt="Nepal"><span class="first-line">Nepal</span></li>
+				<li class="col-lg-4 col-md-4 col-xs-4"><img src="img/Tibet.jpg" alt="Tibet"><span class="first-line">Tibet</span></li>
+			</ul>
+		</div>
+		<div class="gallery row">	
+			<ul>
+				<li class="col-lg-4 col-md-4 col-xs-4"><img src="img/Bhutan.jpg" alt="Bhutan" class="first-line"><span>Bhutan</span></li>
+				<li class="col-lg-4 col-md-4 col-xs-4"><img src="img/SriLanka.jpg" alt="Sri Lanka" class="first-line"><span>Sri Lanka</span></li>
+				<li class="col-lg-4 col-md-4 col-xs-4"><img src="img/Maldives.jpg" alt="Maldives" class="first-line"><span>Maldives</span></li>
 			</ul>
 		</div>
 		</div>
-		<footer>
-			Copyright (c) asia.holidays.com. 2010
-		</footer>
+		<div class="row">
+			<footer class="col-lg-12 col-md-12 col-xs-12">
+				Copyright (c) asia.holidays.com. 2010
+			</footer>
+		</div>
 
 	</div>
 </body>

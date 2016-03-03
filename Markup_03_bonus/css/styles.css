@@ -1,20 +1,16 @@
 body {
-	text-align: center;
 	color:white;
 	font-family: Tahoma;
 }
-.wrapper {
+.wrapper  {
 	margin:0 auto;
 	position:relative;
 	background: url('../img/bcg.jpg') no-repeat center center;
 	background-size: cover;
-	height: 1324.5px;
-	width: 1440px;
 	overflow: hidden;
 }
-.container {
-	margin: 200px auto;
-	width:1350px;
+.container1 {
+	margin: 100px auto;
 }
 .clearfix:after {
 	display: block;
@@ -23,28 +19,18 @@ body {
 }
 /*====LOGO====*/
 .logo {
-	position:relative;
 	float:left;
-	margin-bottom:20px;
-	padding-left: 25px;
 }
-.logo img[alt="text"] {
-	width:390px;
-}
-.logo img[alt="palm"] {
-	position:absolute;
-	top:-115px;
-	left: 230px;
-	z-index: 0;
-	opacity: 0.15;
-	width:187.5px;
+.logo img {
+	width: 100%;
 }
 
 /*====CONTACTC====*/
 .contacts {
-	float:right;
 	font-size:16px;
 	text-align: left;
+	float:right;
+	margin-top:9%;
 }
 .contacts span {
 	font-size:22px;
@@ -58,13 +44,14 @@ body {
 }
 /*====GALLERY====*/
 .gallery li {
-	display:inline-block;
-	width:405px;
-	margin:0 20px;
+	float:left;
+	margin-right:0px;
+}
+.gallery li:first-child {
+	margin-left: 0px;
 }
 .gallery img {
-	width:405px;
-
+	width:100%;
 }
 .gallery span {
 	display: block;
@@ -72,15 +59,10 @@ body {
 	text-align: center;
 	font-size:16px;
 }
-.first-line {
-	margin:12px 0px;
-}
+
 /*====FOOTER====*/
 footer {
 	text-align: center;
 	color:white;
-	position: absolute;
-	font-style: 15px;
-	bottom: 25px;
-	left:42%;
+	font-size: 15px;
 }
