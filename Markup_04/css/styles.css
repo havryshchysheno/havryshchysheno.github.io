@@ -1,0 +1,196 @@
+body {
+		font-family: Tahoma;
+}
+.bcg {
+	width:0px;
+	display:none;
+}
+.container {
+	background: url(../img/bcg.jpg)  no-repeat;
+	background-position:50% -40px;
+	height: 1060px;
+	width: 1280px;
+	margin:0 auto;
+	position: relative;
+}
+.wrapper {
+	width:1000px;
+	height: 990px;	
+	background-color:white;
+	overflow: hidden;
+	margin:0 auto;
+	padding:0px;
+	position:relative;
+	box-shadow: 0 0 20px rgba(0,0,0,0.7);
+
+}
+.clearfix:after {
+	display: block;
+        	content: "";
+        	clear: both;
+}
+/*=====HEADER=====*/
+.contacts {
+	padding-top:9px;
+	color:#128aa7;
+}
+.contacts img {
+	float:left;
+	margin-left:30px;
+}
+.contacts ul {
+	float:right;
+	width: 160px;
+	text-align: left;
+	font-size:0px;
+}
+.contacts li {
+	font-size:12px;
+	line-height: 1.4em;
+}
+.contacts a {
+	color:#128aa7;
+	text-decoration: none;
+}
+.countries {
+	font-size:0px;
+	margin-top:-70px;
+	float:right;
+}
+.countries li {
+	float:left;
+	margin-right:16px;
+	text-align: center;
+}
+.countries a {
+	display:block;
+	background-image: url(../img/country_s.png);
+	font-size:10px;
+	width: 55px;
+	padding-top: 48px;
+	color:#128aa7;
+}
+.countries li:nth-child(1) a {
+	background-position: 262px 0px;
+}
+.countries li:nth-child(2) a {
+	
+	background-position: 157px 0px;
+}
+.countries li:nth-child(3) a {
+	background-position: 53px 0px;
+}
+.countries li:nth-child(5) a {
+	background-position: 106px 0px;
+}
+.countries li:nth-child(6) a {
+	background-position: 210px 0px;
+}
+/*=====NAV====*/
+nav ul {
+	font-size:0px;
+	background-color:#323232;
+	overflow: visible;
+	z-index: 1;
+}
+nav ul li {
+	font-size:14px;
+}
+.menu {
+	position:relative;
+	margin-top:-3px;
+}
+.menu >li>a {
+	display:block;
+	padding:8px;
+	padding-left:10px;
+	padding-right: 50px;
+	color:white;
+	text-decoration: none;
+}
+.menu>li {
+	float:left;
+}
+.menu>li:nth-child(1)>a {
+	padding-left:80px;
+	padding-right:80px;
+}
+.menu>li:nth-child(2)>a {
+	background: url(../img/triangles.png) 100px 13px no-repeat;
+}
+
+.menu>li:nth-child(3)>a {
+	background: url(../img/triangles.png) 60px 13px no-repeat;
+}
+.menu>li:nth-child(4)>a {
+	background: url(../img/triangles.png) 85px 13px no-repeat;
+}
+.sub-menu {
+	position:absolute;
+	box-shadow: 0px 5px 20px rgba(0,0,0,0.8);
+	display: none;
+}
+.sub-menu >li>a {
+	display:block;
+	padding:8px;
+	padding-left:10px;
+	padding-right: 38px;
+	color:white;
+	text-decoration: none;
+}
+.menu >li:hover .sub-menu{
+	display: block;
+}
+/*====LAYOUTS====*/
+.layout-1 {
+	width:1000px;
+	background-color:  #edeef0;
+	float:left;
+}
+.layout-2 {
+	width:1000px;
+	background-color: white;
+	float:left;
+	position:relative;
+	right:210px;
+}
+.layout-3 {
+	width:1000px;
+	background-color:#edeef0;
+	float:left;
+	position:relative;
+	right:575px;
+}
+.column {
+	float:left;
+	overflow: hidden;
+	position: relative;
+	padding-left: 15px;
+	line-height: 1.5em;
+	color: black;
+}
+.column>h2 {
+	font-size:20px;
+	text-align: center;
+}
+.left-column {
+	width:195px;
+	left:785px;
+}
+.center-column {
+	width:560px;
+	left:785px;
+}
+.right-column {
+	width:195px;
+	left:785px;
+	float:right;
+	padding-right: 5px;
+}
+/*====FOOTER====*/
+footer {
+	position: absolute;
+	bottom:48px;
+	left:39%;
+	color:white;
+}
