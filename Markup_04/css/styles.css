@@ -1,7 +1,7 @@
 body {
 	font-family: Tahoma;
-	background: url(../img/bcg.jpg)  no-repeat;
-	background-position:50% -40px;
+	background: url(../img/bcg.png)  no-repeat;
+	background-position:50% 0px;
 	background-size: cover;
 }
 .bcg {
@@ -9,9 +9,7 @@ body {
 	display:none;
 }
 .container {
-	
-	height: 1060px;
-	width: 1280px;
+	min-height: 1060px;
 	margin:0 auto;
 	position: relative;
 }
@@ -39,6 +37,7 @@ body {
 .contacts img {
 	float:left;
 	margin-left:30px;
+	margin-top:8px;
 }
 .contacts ul {
 	float:right;
@@ -202,6 +201,6 @@ nav ul li {
 footer {
 	position: absolute;
 	bottom:48px;
-	left:39%;
+	left:45%;
 	color:white;
 }
