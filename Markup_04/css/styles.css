@@ -8,8 +8,9 @@ body {
 .container {
 	background: url(../img/bcg.jpg)  no-repeat;
 	background-position:50% -40px;
-	height: 1060px;
-	width: 1280px;
+	background-size: cover;
+	//height: 1060px;
+	//width: 1280px;
 	margin:0 auto;
 	position: relative;
 }
@@ -46,6 +47,7 @@ body {
 }
 .contacts li {
 	font-size:12px;
+	font-weight: bold;
 	line-height: 1.4em;
 }
 .contacts a {
@@ -92,6 +94,7 @@ nav ul {
 	background-color:#323232;
 	overflow: visible;
 	z-index: 1;
+	box-shadow: 0 2px 4px 0px rgba(0, 0, 0, .7);
 }
 nav ul li {
 	font-size:14px;
@@ -99,6 +102,7 @@ nav ul li {
 .menu {
 	position:relative;
 	margin-top:-3px;
+	margin-bottom: 4px;
 }
 .menu >li>a {
 	display:block;
@@ -127,7 +131,11 @@ nav ul li {
 }
 .sub-menu {
 	position:absolute;
-	box-shadow: 0px 5px 20px rgba(0,0,0,0.8);
+	 box-shadow:
+   	0 5px 7px rgba(0, 0, 0, .6),
+   	0px 0 5px 0px rgba(0, 0, 0, .3),
+   	0px 0 5px 0px rgba(0, 0, 0, .3),
+   	0 0 0px rgba(0, 0, 0, .0);
 	display: none;
 }
 .sub-menu >li>a {
@@ -167,11 +175,14 @@ nav ul li {
 	position: relative;
 	padding-left: 15px;
 	line-height: 1.5em;
-	color: black;
+	color: #424c43;
 }
 .column>h2 {
 	font-size:20px;
 	text-align: center;
+}
+.column > p {
+	font-size:14px;
 }
 .left-column {
 	width:195px;
@@ -185,7 +196,6 @@ nav ul li {
 	width:195px;
 	left:785px;
 	float:right;
-	padding-right: 5px;
 }
 /*====FOOTER====*/
 footer {
