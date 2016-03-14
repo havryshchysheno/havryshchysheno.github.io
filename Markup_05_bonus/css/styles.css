@@ -1,0 +1,43 @@
+body {
+	background-color: #c7d0d4;
+}
+table {
+	border-collapse: collapse;
+	width:480px;
+	border:9px solid #c7d0d4;
+	background-color: white;
+	margin: auto;
+	position:absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+td {
+	border: 8px solid black;
+	padding:25px;
+}
+.two-hor-line {
+	height: 64px;
+}
+.two-line {
+	width: 35px;
+}
+table tr:last-child td {
+	padding: 15px 35px;
+}
+table tr:nth-child(8) td  {
+	padding: 15px 25px;
+}
+.orange-box {
+	background-color: #ff5e41;
+}
+.yellow-box {
+	background-color: #fff25d;
+}
+.blue-box {
+	background-color: #004f86;
+}
+.black-box {
+	background-color: #15211c;
+}
