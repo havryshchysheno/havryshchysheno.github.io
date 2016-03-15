@@ -94,7 +94,6 @@ img {
 	margin-bottom: 25px;
 	border-top:1px solid #7588b3;
 	cursor: pointer;
-	font-size:14px;
 	color:white;
 	font-size:17px;
 }
@@ -106,13 +105,12 @@ img {
 }
 .section .favicon {
 	float:left;
-	width: 25px;
-	height: 35px;
+	width: 30px;
+	font-size:26px;
 	margin-left:5px;
-	padding-right:5px;
-	background: url(../img/facebook.png) 0px 4px no-repeat;
+	line-height: 34px;
+	padding-right:7px;
 	border-right:1px solid #213c71;
-	background-size: 90%;
 }
 .section .bold-text {
 	font-weight: bold;
@@ -129,6 +127,7 @@ img {
 	padding:8px;
 	width: 275px;
 	background-color: #101010;
+	color:white;
 	border:1px solid #101010;
 	border-bottom: 1px solid #484948;
 }
@@ -151,6 +150,11 @@ img {
  	box-shadow: inset #4b9dd6 1px 1px;
  	border:#4b9dd6;
  	cursor:pointer;
+}
+.form-list li:nth-child(7) input:focus {
+	background: linear-gradient(to top, rgba(38,185,226,1) 0%, rgba(78,172,218,1) 0%, rgba(46,122,196,1) 99%, rgba(183,222,237,1) 100%);
+	box-shadow: #4b9dd6 1px 1px 1px;
+	border:#4b9dd6;
 }
 .policy p {	
 	color:#cccccc;
