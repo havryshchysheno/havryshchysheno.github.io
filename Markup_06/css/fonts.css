@@ -1,0 +1,5 @@
+@font-face {
+    font-family: LucidaSans; /* Имя шрифта */
+    src: url(../fonts/.ttf); /* Путь к файлу со шрифтом */
+    src: url(../fonts/lucida-sans-regular.ttf);
+   }
