@@ -1,0 +1,276 @@
+/*=================MENU===============*/
+.menu {
+	display: none;
+}
+.inline-menu-wrapper {
+	display: block;
+}
+.top-bar {
+	height: 805px;
+}
+.header {
+	width:728px;
+	margin-bottom: 75px;
+	text-align: left;
+}
+.header__navigate {
+	margin-top:34px;
+	margin-left:0px;
+}
+.inline-menu {
+	width: 728px;
+	margin-top:0px;
+}
+.inline-menu__item {
+	font-size:24px;
+	padding-right:51px;
+}
+.inline-menu__item:nth-child(4) {
+	padding-right: 54px;
+}
+.inline-menu__item:last-child{
+	padding-right: 0px;
+}
+.inline-menu__link--pink:hover {
+	border-bottom: 2px solid #edbfff;
+}
+/*===========SLIDER==========*/
+.slider-container {
+	height: 400px;
+}
+.slider {
+	width: 768px;
+}
+.slider__text {
+	margin-top:97px;
+	margin-left:4px;
+	letter-spacing: -0.3px;
+}
+.slider__head {
+	font-size:48px;
+	margin-bottom: 10px;
+}
+.slider__discription {
+	font-size: 24px;
+	letter-spacing: -0.2px;
+}
+.slider__body {
+	display: block;
+}
+.slider__arrow {
+	margin-top: 180px;
+}
+.slider__img {
+	height: 450px;
+	right: 37px;
+	top:-25px;
+}
+.slider__photo {
+	height: 430px;
+	width: 208px;
+	background: url('../img/IPhone-4.png');
+	background-repeat: no-repeat;
+	margin-right: 0px;
+}
+.slider__photo--blur {
+	width: 80px;
+	height: 270px;
+	margin-top:80px;
+	margin-right: -5px;
+	background: url('../img/IPhone-4_blur.png') no-repeat;
+	background-size: cover;
+}
+.slider__play-circle {
+	height: 75px;
+	width: 75px;
+	border-radius: 50%;
+	border:3px solid #cccccc;
+	position: absolute;
+	left:59px;
+	top:148px;
+	cursor: pointer;
+}
+.slider__play-circle2 {
+	height: 61px;
+	width: 61px;
+	border-radius: 50%;
+	border:7px solid #46324f;
+}
+.slider__play-circle3 {
+	height: 57px;
+	width: 57px;
+	border-radius: 50%;
+	border:2px solid #cccccc;
+}
+.slider__play-circle4 {
+	height: 53px;
+	width: 53px;
+	border-radius: 50%;
+	border:2px solid white;
+	background-color: rgba(203,165,218,0.7);
+	background-image: url('../img/play_arrow.png');
+	background-repeat: no-repeat;
+	background-size: 25px;
+	background-position: 16px 10px;
+}
+.slider__controls {
+	text-align: right;
+	width: 475px;
+	margin-top:15px;
+}
+/*============CONTENT=============*/
+.content {
+	height: 345px;
+}
+.text-container {
+	width: 768px;
+}
+.text__block {
+	float:left;
+	margin-left:19px;
+	width: 208px;
+	height: 200px;
+}
+.text__block:nth-child(2) {
+	margin-left:44px;
+}
+.text__block:last-child {
+	margin-left:53px;
+}
+
+.text__body {
+	margin-top:-5px;
+	margin-left:2px;
+	height: 143px;
+}
+.text__link {
+	margin-right: -3px;
+}
+/*=============REWIEVS==========*/
+.reviews-container {
+	height: 578px;
+}
+.reviews-wrapper {
+	width: 768px;
+	margin:auto;
+	margin-top:30px;
+}
+.reviews__slider {
+	float:left;
+}
+.pingbuller-wrapper {
+	width: 380px;
+}
+.slider-controls {
+	width: 370px;
+	text-align: center;
+}
+.pingbuller {
+	width: 318px;
+}
+.pingbuller__head {
+	font-size: 24px;
+}
+.pingbuller__body {
+	margin-top:8px;
+}
+.pingbuller__head--pink {
+	display: block;
+}
+.last-update {
+	margin-top:100px;
+	margin-left:-5px;
+	width: 328px;
+	float:left;
+}
+.update__link {
+	margin-right: 1px;
+}
+.update__item--first {
+	margin-bottom: 18px;
+}
+.update__item--third {
+	margin-top: 0px;
+	margin-bottom:17px;
+}
+/*=========PARTNERS=======*/
+.partners-container {
+	overflow: hidden;
+	padding-top:25px;
+	margin-top:70px;
+}
+.partners {
+	width: 768px;
+}
+.partners__item {
+	width: 120px;
+}
+.partners__item--1 {
+	background-position: 22px 0px;
+}
+.partners__item--2 {
+	background-position: 27px -69px;
+}
+.partners__item--3 {
+	background-position: 32px -140px;
+	margin-top:0px;
+}
+.partners__item--4 {
+	background-position: 41px -207px;
+	margin-top:0px;
+}
+.partners__item--5 {
+	background-position: 30px -275px;
+	height: 24px;
+	margin-top:22px;
+	width: 130px;
+}
+.partners__item--6 {
+	margin-top:4px;
+	background-position: 60px -299px;
+	width: 140px;
+}
+/*==============NEWS============*/
+.news-wrapper {
+	height: 395px;
+}
+.news-container {
+	width: 768px;
+}
+.news__item {
+	float:left;
+	margin-left:20px;
+	margin-top:20px;
+	width: 204px;
+	height: 200px;
+}
+.news__item--2 {
+	margin-left: 62px;
+	margin-right: 38px;
+}
+/*============FOOTER==========*/
+.footer-menu-wrapper {
+	display: block;
+	width: 768px;
+	margin:auto;
+}
+.footer__inline-menu {
+	float:left;
+	margin-left:20px;
+	margin-top:5px;
+}
+.footer__menu-item {
+	font-size: 20px;
+	padding-right:43px;
+}
+.footer__menu-item:nth-child(4) {
+	padding-right: 43px;
+}
+.footer__content {
+	width: 768px;
+	margin:auto;
+}
+.footer__text {
+	float:right;
+	margin-right: 21px;
+}
