@@ -270,6 +270,12 @@ body {
 	background: url(../img/blurbs_spite_st.png) 11px 0px no-repeat;
 	padding-left:63px;
 }
+.text__header--2 {
+	background-position: -30px -32px;
+}
+.text__header--3 {
+	background-position: -60px -64px;
+}
 .text__body {
 	font-family: OpenSansLight;
 	font-size:16px;
