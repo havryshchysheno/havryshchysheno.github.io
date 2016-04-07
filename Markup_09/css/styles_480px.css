@@ -36,6 +36,7 @@
 /*==========CONTENT=============*/
 .content {
 	padding-top:58px;
+	margin-bottom:-2px;
 }
 .text__block {
 	width: 440px;

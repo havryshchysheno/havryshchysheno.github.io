@@ -10,6 +10,11 @@ body {
 	display: block;
 	clear: both;
 }
+.hidden {
+	position: absolute;
+	top:-9999px;
+	left:-9999px;
+}
 /*========TOP-BAR=======*/
 .top-bar {
 	background: url(../img/bcg.jpg) top center no-repeat;
@@ -140,7 +145,7 @@ body {
 	overflow: hidden;
 	line-height: 25px;
 	color:rgba(255,255,255,0.5);
-	font-family: OpenSansLight;
+	font-family: OpenSansLight, OpenSans;
 }
 .slider__arrow--left {
 	float:left;
@@ -344,7 +349,7 @@ body {
 	margin-left:4px;
 	line-height: 27px;
 	color:black;
-	font-family: OpenSansLight;
+	font-family: OpenSansLight,OpenSans;;
 	font-size: 16px;
 	line-height: 24px;
 	height: 140px;
@@ -511,7 +516,7 @@ body {
 	margin-bottom: 9px;
 }
 .news__body {
-	font-family: OpenSansLight;
+	font-family: OpenSansLight OpenSans;;
 	font-size:16px;
 	line-height: 24px;
 }
