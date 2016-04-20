@@ -44,10 +44,14 @@ function split () {
 }
 
 function reset () {
-	var list = document.querySelector('ul');
+	var list = document.querySelectorAll('li');
 	clearInterval(startTimer);
 	element.innerHTML = '00:00:00.000';
-	list.parentNode.removeChild(list);
+	var list = document.querySelectorAll('li');
+		for (var i = 0; i < list.length; i++) {
+			list[i].parentNode.removeChild(list[i]);
+		}
+	
 	ms = 0;
 	s = '00';
 	m = '00';
@@ -58,10 +62,8 @@ function startNew () {
 	var status = document.querySelector('.start').value;
 	if (status > 0) {
 		var parent = document.querySelector('.wrapper');
-		var list = document.createElement('ul');
 		document.querySelector('.start').value = 0;
 		document.querySelector('.start').innerHTML = 'Stop'
-		parent.appendChild(list);
 		startTimer = setInterval (start, 20);
 	} else {
 		var parent = document.querySelector('.wrapper');
