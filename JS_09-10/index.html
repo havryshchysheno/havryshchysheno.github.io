@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/jquery-ui.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jcarousel/0.3.4/jquery.jcarousel.min.js"></script>
+	<script src="js/jquery.color.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<div class="container clearfix tabs">
+		<ul class = "tab-list">
+			<li class = "tab-item active-tab"><a href="#tab1" class = "tab-link">Carousel</a></li>
+			<li class = "tab-item"><a href="#tab2" class = "tab-link">Custom Select</a></li>
+			<li class = "tab-item"><a href="#tab3" class = "tab-link">JQuery checkbox</a></li>
+			<li class = "tab-item"><a href="#tab4" class = "tab-link">CSS checkbox</a></li>
+			<li class = "tab-item"><a href="#tab5" class = "tab-link">Jquery menu</a></li>
+			<li class = "tab-item"><a href="#tab6" class = "tab-link">JS menu</a></li>
+		</ul>
+		<div class="carousel-wrapper tab current" id = "tab1">
+			<div class="carousel" data-carousel = "true">
+				<ul class = "slide-list">
+					<li class = "slide-item"><img src="img/slide-1.jpg" alt=""></li>
+					<li class = "slide-item"><img src="img/slide-2.jpg" alt=""></li>
+					<li class = "slide-item"><img src="img/slide-3.jpg" alt=""></li>
+				</ul>
+			</div>
+			<a href="#" class = "carousel-control-prev carousel-control" data-carouselcontrol = "true">&lt;</a>
+			<a href="#" class = "carousel-control-next carousel-control" data-carouselcontrol = "true">&gt;</a>
+			<p class = "carousel-pagination"></p>
+			<p class="jcarousel-pagination"></p>
+		</div>
+		<div class="custom-checkbox tab" id = "tab2">
+			<form action="#" class = "select">
+			<label for="customSelect" class = "select-label">Выберите строку</label>
+				<select name="customSelect" id="customSelect" class = "customSelect">
+					<option value="Label 1">Label 1</option>
+					<option value="Label 2">Label 2</option>
+					<option value="Label 3">Label 3</option>
+					<option value="Label 4">Label 4</option>
+					<option value="Label 5">Label 5</option>
+					<option value="Label 6">Label 6</option>
+				</select>
+			</form>
+		</div>
+		<div class="custom-checkbox tab"  id = "tab3">
+			<form action="#" class = "jquery-check">
+				<h2>Нестандартные чекбоксы с помощью jquery</h2>
+				<div>
+					<label for="ch1" class = "check-label">Label 1
+					<span class = "my-check"><input type="checkbox" name="ch1" id="ch1" class = "check"></span>
+					</label>
+				</div>
+				<div>
+					<label for="ch2" class = "check-label">Label 2
+					<span class = "my-check"><input type="checkbox" name="ch2" id="ch2" class = "check"></span>
+					</label>
+				</div>
+				<div>
+					<label for="ch3" class = "check-label">Label 3
+					<span class = "my-check"><input type="checkbox" name="ch3" id="ch3" class = "check"></span>
+					</label>
+				</div>
+			</form>
+		</div>
+		<div class="custom-checkbox tab" id = "tab4">
+			<form action="#" class = "css-check">
+				<h2>Нестандартные чекбоксы с помощью CSS</h2>
+				<div>
+					<input type="checkbox" name="check1" id="check1" class = "check-css">
+					<label for="check1" class = "label-css">Label 1</label>
+				</div>
+				<div>
+					<input type="checkbox" name="check2" id="check2" class = "check-css">
+					<label for="check2" class = "label-css">Label 2</label>
+				</div>
+				<div>
+					<input type="checkbox" name="check3" id="check3" class = "check-css">
+					<label for="check3" class = "label-css">Label 3</label>
+				</div>
+			</form>
+		</div>
+		<div class="jquery-menu tab" id = "tab5">
+			<ul class = "jq-menu">
+				<li><a href="">Nav 1</a></li>
+				<li><a href="">Nav 2</a></li>
+				<li class = "dropdown">
+					<a href="#" class = "droplink">Nav 3</a>
+					<ul class = "jq-sub-menu">
+						<li><a href="">Nav 3.1</a></li>
+						<li><a href="">Nav 3.2</a></li>
+						<li class = "dropdown">
+							<a href="#" class = "droplink">Nav 3.3</a>
+							<ul class = "jq-sub-menu jq-sub-menus">
+								<li><a href="">Nav 3.3.1</a></li>
+								<li><a href="">Nav 3.3.2</a></li>
+								<li class = "dropdown">
+									<a href="#" class = "droplink">Nav 3.3.3</a>
+									<ul class = "jq-sub-menu jq-sub-menut">
+										<li><a href="">Nav 3.3.3.1</a></li>
+										<li><a href="">Nav 3.3.3.2</a></li>
+										<li><a href="">Nav 3.3.3.3</a></li>
+										<li><a href="">Nav 3.3.3.4</a></li>
+										<li><a href="">Nav 3.3.3.5</a></li>
+									</ul>
+								</li>
+								<li><a href="">Nav 3.3.4</a></li>
+								<li><a href="">Nav 3.3.5</a></li>
+							</ul>
+						</li>
+						<li><a href="">Nav 3.4</a></li>
+						<li><a href="">Nav 3.5</a></li>
+					</ul>
+				</li>
+				<li><a href="">Nav 4</a></li>
+				<li><a href="">Nav 5</a></li>
+			</ul>
+		</div>
+		<div class="js-menu tab" id = "tab6">
+			<ul class = "js-menu">
+				<li><a href="">Nav 1</a></li>
+				<li><a href="">Nav 2</a></li>
+				<li class = "dropdown-js">
+					<a href="#" class = "droplink">Nav 3</a>
+					<ul class = "js-sub-menu">
+						<li><a href="">Nav 3.1</a></li>
+						<li><a href="">Nav 3.2</a></li>
+						<li class = "dropdown-js">
+							<a href="#" class = "droplink">Nav 3.3</a>
+							<ul class = "js-sub-menu js-sub-menus">
+								<li><a href="">Nav 3.3.1</a></li>
+								<li><a href="">Nav 3.3.2</a></li>
+								<li class = "dropdown-js">
+									<a href="#" class = "droplink">Nav 3.3.3</a>
+									<ul class = "js-sub-menu js-sub-menut">
+										<li><a href="">Nav 3.3.3.1</a></li>
+										<li><a href="">Nav 3.3.3.2</a></li>
+										<li><a href="">Nav 3.3.3.3</a></li>
+										<li><a href="">Nav 3.3.3.4</a></li>
+										<li><a href="">Nav 3.3.3.5</a></li>
+									</ul>
+								</li>
+								<li><a href="">Nav 3.3.4</a></li>
+								<li><a href="">Nav 3.3.5</a></li>
+							</ul>
+						</li>
+						<li><a href="">Nav 3.4</a></li>
+						<li><a href="">Nav 3.5</a></li>
+					</ul>
+				</li>
+				<li><a href="">Nav 4</a></li>
+				<li><a href="">Nav 5</a></li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
