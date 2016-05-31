@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery-2.2.4.min.js"></script>
+	<script src = "js/carouselPG.js"></script>
+	<script src="js/Resig_template.js"></script>
+	<script src="https://cdn.jsdelivr.net/lodash/4.13.1/lodash.min.js"></script>
+	<script src="js/script.js"></script>
+
+</head>
+<body>
+	<div class="carousel">
+		<div class="carousel-arrow-left carousel-arrow"><span>Влево</span></div>
+		<div class="carousel-hider">
+			<ul class = "carousel-list">
+				<li class = "carousel-element"><img src="img/slide-1.jpg" alt=""><p>Image 1</p></li>
+				<li class = "carousel-element"><img src="img/slide-2.jpg" alt=""><p>Image 2</p></li>
+				<li class = "carousel-element"><img src="img/slide-3.jpg" alt=""><p>Image 3</p></li>
+				<li class = "carousel-element"><img src="img/slide-1.jpg" alt=""><p>Image 4</p></li>
+				<li class = "carousel-element"><img src="img/slide-2.jpg" alt=""><p>Image 5</p></li>
+				<li class = "carousel-element"><img src="img/slide-3.jpg" alt=""><p>Image 6</p></li>
+				<li class = "carousel-element"><img src="img/slide-1.jpg" alt=""><p>Image 7</p></li>
+				<li class = "carousel-element"><img src="img/slide-2.jpg" alt=""><p>Image 8</p></li>
+				<li class = "carousel-element"><img src="img/slide-3.jpg" alt=""><p>Image 9</p></li>
+			</ul>
+		</div>
+		<div class="carousel-arrow-right carousel-arrow"><span>Вправо</span></div>
+	</div>
+	<div class="John-template">
+		
+	</div>
+
+	<script type="text/template" id="resig">
+		<div class="template container">
+			<div class="head personal-info">
+				<h1 id="target"><#= head_name #></h1>
+				<img src=<#= photo#> alt="" class ="photo">
+				<p><#= head_text #></p>
+			</div>
+			<div class="main">
+				<p><#= main_text #></p>
+				<ul>
+				<# for (var i = 0; i < main_item.length; i++) { #>
+				<li><#= main_item[i] #></li>
+				<# }; #>
+				</ul>
+			</div>
+		</div>
+	</script>
+	<script type="text/template" id="lodash">
+		<div class="template container">
+			<div class="head personal-info">
+				<h1 id="target"><%= head_name %></h1>
+				<img src=<%= photo%> alt="" class ="photo">
+				<p><%= head_text %></p>
+			</div>
+			<div class="main">
+				<p><%= main_text %></p>
+				<ul>
+				<% for (var i = 0; i < main_item.length; i++) { %>
+				<li><%= main_item[i] %></li>
+				<% }; %>
+				</ul>
+			</div>
+		</div>
+	</script>
+</body>
+</html>
