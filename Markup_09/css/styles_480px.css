@@ -1,0 +1,145 @@
+.top-bar {
+	height: 555px;
+}
+.header__navigate {
+	margin-top:28px;
+	margin-bottom:14px;
+}
+.slider-container {
+	box-sizing: border-box;
+	background-color: rgba(0,0,0,0.2);
+	height: 250px;
+	position: relative;
+}
+/*=============SLIDER============*/
+.slider {
+	width: 480px;
+	position: relative;
+}
+.slider__text {
+	margin-top:95px;
+	padding-left: 15px;
+}
+.slider__arrow--left {
+	margin-top: 102px;
+}
+.slider__arrow--right {
+	margin-top:102px;
+}
+.slider__controls {
+	padding-top: 20px;
+	padding-left: 9px;
+}
+.slider__img {
+	display: block;
+}
+/*==========CONTENT=============*/
+.content {
+	padding-top:58px;
+	margin-bottom:-2px;
+}
+.text__block {
+	width: 440px;
+}
+.text__block--last {
+	margin-top: 3px;
+}
+.text__link {
+	margin-top:8px;
+	margin-right: 7px;
+}
+/*==========REVIEWS==========*/
+.reviews-container {
+	height: 1020px;
+
+}
+.pingbuller-wrapper {
+	width: 480px;
+}
+.pingbuller {
+	width: 418px;
+	height: 268px;
+	margin-top:6px;
+	margin-right: 19px;
+}
+.pingbuller__head {
+	font-size: 30px;
+	padding-left: 3px;
+	padding-top:2px;
+}
+.pingbuller__head--pink {
+	display: inline;
+}
+.pingbuller__body {
+	margin-top:13px;
+	height: 170px;
+}
+.slider__controls--white {
+	padding-left:12px;
+}
+.slider__control--white {
+	margin-top:0px;
+}
+/*==========LAST-UPDATES==========*/
+.last-update {
+	width: 355px;
+}
+.update__link {
+	margin-right: 18px;
+}
+.for-480 {
+	display: inline;
+}
+/*==========PARTNERS=========*/
+.partners {
+	width: 420px;
+}
+.partners-container {
+	padding-top: 38px;
+}
+.partners-container {
+	height: 200px;
+}
+.partners__item {
+	width: 140px;
+}
+.partners__item--1 {
+	background-position: 52px 0px;
+}
+.partners__item--2 {
+	background-position: 36px -69px;
+}
+.partners__item--3 {
+	background-position: 22px -140px;
+	margin-top:0px;
+}
+.partners__item--4 {
+	background-position: 36px -207px;
+	margin-top:25px;
+}
+.partners__item--5 {
+	background-position: 3px -275px;
+	height: 24px;
+	margin-top:48px;
+}
+.partners__item--6 {
+	margin-top:28px;
+	background-position: 23px -299px;
+}
+/*============NEWS==============*/
+.news-wrapper {
+	display: block;
+}
+/*===============FOOTER===============*/
+.footer-menu-wrapper {
+	display: block;
+}
+.inline-menu-wrapper {
+	display: block;
+}
+.inline-menu-wrapper--top {
+	display: none;
+}
+.footer__text {
+	margin-top:39px;
+}

@@ -1,0 +1,20 @@
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/OpenSans.ttf); 
+   }
+   @font-face {
+    font-family: LeagueGothic;
+    src: url(../fonts/league-gothic.ttf); 
+   }
+    @font-face {
+    font-family: OpenSansLight;
+    src: url(../fonts/OpenSansLight.ttf); 
+   }
+    @font-face {
+    font-family: OpenSansExtraBold;
+    src: url(../fonts/OpenSansExtraBold.ttf); 
+   }
+  @font-face {
+    font-family: MyriadProRegular;
+    src: url(../fonts/MyriadProRegular.ttf); 
+   }

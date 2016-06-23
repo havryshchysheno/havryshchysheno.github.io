@@ -1,0 +1,73 @@
+.carousel {
+	width: 1350px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.carousel-list {
+	list-style: none;
+	width: 1000000px;
+	padding: 0;
+	position: relative;
+	left:0;
+}
+
+.carousel-element {
+	margin-right: 25px;
+	float: left;
+}
+
+.carousel-element>img {
+	width: 580px;
+}
+
+.carousel-hider {
+	width: 1200px;
+	overflow: hidden;
+	float:left;
+}
+
+.carousel-arrow-left, 
+.carousel-arrow-right {
+	float: left;
+	border: 1px solid grey;
+	background-color: lightgrey;
+	padding: 5px;
+	margin-top: 50px;
+}
+
+.carousel-arrow-left:hover,
+.carousel-arrow-right:hover {
+	cursor: pointer;
+	background-color: grey;
+}
+
+.carousel-arrow-left {
+	margin-right: 10px;
+}
+
+/*===========template========*/
+.container {
+	background: white;
+	width:30%;
+	margin:auto;
+	border:1px solid black;
+}
+h1 {
+	font-size:22px;
+}
+p {
+	text-align:left;
+	font-size:17px;
+	padding-left:15px;
+	font-size:17px;
+}
+
+.personal-info{
+	text-align:center;
+}
+.photo {
+	width:150px;
+	height: 125px;
+	border-radius:20px 20px;
+}

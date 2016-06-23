@@ -1,0 +1,42 @@
+body {
+	background: rgb(239,239,239);
+	height:100%;
+	width:100%;
+}
+.container {
+	background: white;
+	width:30%;
+	height: 750px;
+	margin:0.5% 35%;
+	border:1px solid white;
+}
+h1 {
+	font-size:22px;
+}
+p {
+	text-align:left;
+	font-size:17px;
+	padding-left:15px;
+	font-size:17px;
+}
+span, 
+a {
+	font-size:17px;
+	padding-left:15px;
+	font-size:17px;
+}
+.personal-info{
+	text-align:center;
+	margin:40px 50px 0px;
+}
+.photo {
+	width:150px;
+	height: 125px;
+	border-radius:20px 20px;
+}
+.info, 
+.contacts, 
+.feedback {
+	line-height: 1.6em;
+	margin:0px 50px 25px;
+}

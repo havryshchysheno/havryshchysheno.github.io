@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'HelveticanNeue';
+    src: url('../fonts/helveticaneue-roman-webfont.eot');
+    src: url('../fonts/helveticaneue-roman-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneue-roman-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneue-roman-webfont.woff') format('woff'),
+         url('../fonts/helveticaneue-roman-webfont.ttf') format('truetype'),
+         url('../fonts/helveticaneue-roman-webfont.svg#helvetica_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

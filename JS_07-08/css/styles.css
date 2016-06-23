@@ -1,0 +1,98 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.wrapper {
+	width: 75vw;
+	margin:auto;
+	padding:2vw;
+}
+
+.tabs {
+	border: 1px solid black;
+	padding: 5px;
+}
+
+.tab-item {
+	display: inline-block;
+}
+
+.tab-list {
+	font-size: 0px;
+	background-color: #888686;
+	border-radius: 10px 10px;
+	width: 100%;
+	padding:8px 0 0 0;
+}
+
+.tab-item {
+	height: 35px;
+	font-size:20px;
+	margin-left:10px;
+	background-color: #a49e9e;
+	border-radius:10px 10px 0 0;
+	border-bottom: 1px solid black;
+}
+
+.tab-link {
+	color:black;
+	line-height: 40px;
+	padding: 5px 30px;
+	text-decoration: none;
+}
+
+.active {
+	background-color:#fff;
+	border: 1px solid #fff;
+
+}
+
+.tab {
+	font-size:1.4em;
+	background-color: #fff;
+	padding:30px;
+	display: none
+}
+
+.current {
+	display: block;
+}
+
+
+/*=========FORM=========*/
+.form {
+	border: 1px solid black;
+	margin-top:40px;
+	padding:30px;
+}
+
+.input-container {
+	margin-bottom: 15px;
+}
+.input-name {
+	margin-right:19px;
+}
+
+.first-name {
+	margin-right:17px;
+}
+
+.address {
+	margin-right: 36px;
+}
+
+.form-tooltip {
+	margin-left: 25px;
+	padding:5px;
+	-webkit-box-shadow: 0px 0px 5px 1px rgba(173,170,170,1);
+	-moz-box-shadow: 0px 0px 5px 1px rgba(173,170,170,1);
+	box-shadow: 0px 0px 5px 1px rgba(173,170,170,1);
+	display: none;
+}
+
+.help-btn {
+	margin-top:30px;
+	padding:5px 20px;
+
+}

@@ -1,0 +1,350 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.container {
+	width: 95vw;
+	margin: auto;
+	border: 1px solid red;
+}
+
+.tabs {
+	border: 1px solid black;
+	padding: 5px;
+}
+
+.tab-item {
+	display: inline-block;
+}
+
+.tab-list {
+	font-size: 0px;
+	background-color: #888686;
+	border-radius: 10px 10px;
+	width: 100%;
+	padding:8px 0 0 0;
+}
+
+.tab-item {
+	height: 35px;
+	font-size:20px;
+	margin-left:10px;
+	background-color: #a49e9e;
+	border-radius:10px 10px 0 0;
+	border-bottom: 1px solid black;
+}
+
+.tab-link {
+	color:black;
+	line-height: 40px;
+	padding: 5px 30px;
+	text-decoration: none;
+}
+
+.active-tab {
+	background-color:#fff;
+	border: 1px solid #fff;
+
+}
+
+.tab {
+	display: none;
+}
+
+.current {
+	display: block;
+}
+
+/*========CAROUSEL===========*/
+.carousel-wrapper {
+	background: rgba(102,102,102,1);
+	background: -moz-linear-gradient(top, rgba(102,102,102,1) 0%, rgba(17,17,17,1) 99%, rgba(17,17,17,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(102,102,102,1)), color-stop(99%, rgba(17,17,17,1)), color-stop(100%, rgba(17,17,17,1)));
+	background: -webkit-linear-gradient(top, rgba(102,102,102,1) 0%, rgba(17,17,17,1) 99%, rgba(17,17,17,1) 100%);
+	background: -o-linear-gradient(top, rgba(102,102,102,1) 0%, rgba(17,17,17,1) 99%, rgba(17,17,17,1) 100%);
+	padding:30px;
+}
+
+.carousel {
+	position: relative;
+	overflow: hidden;
+	width: 800px;
+	margin:auto;
+}
+
+.slide-list {
+	width: 20000em;
+	position: relative;
+	list-style: none;
+	letter-spacing: 0;
+}
+
+.slide-item {
+	float:left;
+}
+
+.carousel-control {
+	position: absolute;
+	top: 200px;
+	left: 10vw;
+	text-decoration: none;
+	color:#fff;
+	font-size: 85px;
+	font-weight: bold;
+}
+
+.carousel-control-next {
+	left: 85vw;
+}
+
+.jcarousel-pagination {
+	text-align: center;
+}
+
+.jcarousel-pagination a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    height: 10px;
+    width: 10px;
+    line-height: 10px;
+    background: #fff;
+    color: #4E443C;
+    border-radius: 10px;
+    text-indent: -9999px;
+    margin-right: 7px;
+    -webkit-box-shadow: 0 0 2px #4E443C;
+    -moz-box-shadow: 0 0 2px #4E443C;
+    box-shadow: 0 0 2px #4E443C;
+}
+
+.jcarousel-pagination a.active {
+    background: #4E443C;
+    color: #fff;
+    opacity: 1;
+    -webkit-box-shadow: 0 0 2px #F0EFE7;
+    -moz-box-shadow: 0 0 2px #F0EFE7;
+    box-shadow: 0 0 2px #F0EFE7;
+}
+
+
+
+/*==========CHECKBOX JQUERY===========*/
+.custom-checkbox {
+	width: 75vw;
+	margin:auto;
+	overflow: hidden;
+}
+.jquery-check {
+	float:left;
+	margin-right: 40px;
+}
+
+.my-check {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	cursor: pointer;
+	background-image: url('../img/checkbox.png');
+	background-size: 100%;
+}
+.check-label {
+	cursor: pointer;
+}
+.check {
+	display: none;
+}
+
+/*==========CHECKBOX CSS===========*/
+.css-check {
+	position: relative;
+	float:left;
+}
+
+.check-css {
+	position: absolute;
+	clip: rect(0, 0, 0, 0);
+}
+
+.label-css {
+	cursor: pointer;
+}
+
+.label-css:after {
+	content: " ";
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	background: url('../img/checkbox-2.png');
+	background-position: 0 0;
+	position: relative;
+	top: 3px;
+	margin-left: 17px;
+}
+
+.check-css:checked + .label-css:after {
+	background-position: 0 -17px;
+}
+
+.label-css:hover:after {
+	background-position: 0 -34px;
+}
+
+.check-css:checked + .label-css:hover:after {
+	background-position: 0 -51px;
+}
+
+
+/*==========SELECT==========*/
+.select {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.select-label {
+	line-height: 35px;
+	vertical-align: top;
+}
+
+.customSelect {
+	width: 110px;
+}
+/*======MENU=======*/
+.jquery-menu {
+	width: 75vw;
+	margin:auto;
+}
+
+.jquery-menu ul {
+	list-style:none;
+	font-size: 0px;
+	
+}
+
+.jquery-menu ul li {
+	font-size: 16px;
+}
+
+.jq-menu {
+	
+	background-color: rgb(255,100,100);
+}
+	
+.dropdown {
+	position: relative;
+}
+
+.jq-menu a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.jq-menu>li {
+	display: inline-block;
+	
+}
+
+.jq-menu>li>a {
+	display: block;
+	padding: 20px 80px;
+}
+
+.jq-sub-menu {
+	position: absolute;
+	left: 80px;
+	
+	display: none;
+}
+
+.jq-sub-menu li {
+	background-color: #FF4B4B;
+}
+
+.jq-sub-menus {
+	top: 0;
+	left: 200px;
+}
+
+.jq-sub-menut {
+	top: 0;
+	left: 200px;
+}
+
+.jq-sub-menu a {
+	display: block;
+	width: 180px;
+	padding: 10px 10px;
+}
+
+/*======JS MENU=======*/
+.js-menu {
+	width: 75vw;
+	margin:auto;
+}
+
+.js-menu ul {
+	list-style:none;
+	font-size: 0px;
+	
+}
+
+.js-menu ul li {
+	font-size: 16px;
+}
+
+.js-menu {
+	
+	background-color: rgb(255,100,100);
+}
+	
+.dropdown-js {
+	position: relative;
+}
+
+.js-menu a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.js-menu>li {
+	display: inline-block;
+	
+}
+
+.js-menu>li>a {
+	display: block;
+	padding: 20px 80px;
+}
+
+.js-sub-menu {
+	position: absolute;
+	left: 80px;
+	display: none
+}
+
+
+.js-sub-menu li {
+	background-color: #FF4B4B;
+}
+
+.js-sub-menus {
+	top: 0;
+	left: 200px;
+}
+
+.js-sub-menut {
+	top: 0;
+	left: 200px;
+}
+
+.js-sub-menu a {
+	display: block;
+	width: 180px;
+	padding: 10px 10px;
+}

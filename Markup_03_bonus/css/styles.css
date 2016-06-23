@@ -1,0 +1,68 @@
+body {
+	color:white;
+	font-family: Tahoma;
+}
+.wrapper  {
+	margin:0 auto;
+	position:relative;
+	background: url('../img/bcg.jpg') no-repeat center center;
+	background-size: cover;
+	overflow: hidden;
+}
+.container1 {
+	margin: 100px auto;
+}
+.clearfix:after {
+	display: block;
+        	content: "";
+        	clear: both;
+}
+/*====LOGO====*/
+.logo {
+	float:left;
+}
+.logo img {
+	width: 100%;
+}
+
+/*====CONTACTC====*/
+.contacts {
+	font-size:16px;
+	text-align: left;
+	float:right;
+	margin-top:9%;
+}
+.contacts span {
+	font-size:22px;
+}
+.contacts li{
+	line-height: 1.2em;
+}
+.contacts a {
+	text-decoration: none;
+	color:white;
+}
+/*====GALLERY====*/
+.gallery li {
+	float:left;
+	margin-right:0px;
+}
+.gallery li:first-child {
+	margin-left: 0px;
+}
+.gallery img {
+	width:100%;
+}
+.gallery span {
+	display: block;
+	color:white;
+	text-align: center;
+	font-size:16px;
+}
+
+/*====FOOTER====*/
+footer {
+	text-align: center;
+	color:white;
+	font-size: 15px;
+}
