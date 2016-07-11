@@ -1,10 +1,10 @@
 $(function () {
 	
-	// $('.holidays_grid').masonry({
-	// 	itemSelector: '.holidays-item'
-	// });
+	$('.holidays_grid').masonry({
+		itemSelector: '.holidays-item'
+	});
 
-	//getImage('.holidays_button');
+	getImage('.holidays_button');
 
 	$('#slider-1').flexslider({
 		animation: 'fade',
@@ -37,33 +37,34 @@ $(function () {
 	});
 
 
-// function getImage (item) {
-// 	$(item).on('click', getImage);
-// 	var input = $('.holidays_input').val();
+function getImage (item) {
+	$(item).on('click', getImage);
+	var input = $('.holidays_input').val();
 
-// $.ajax({
-// 	url : "http://api.flickr.com/services/feeds/photos_public.gne",
-// 	dataType: 'jsonp',
-// 	data: { "tags": input, "format": "json" }
-// });
+$.ajax({
+	url : "http://api.flickr.com/services/feeds/photos_public.gne",
+	dataType: 'jsonp',
+	data: { "tags": input, "format": "json" }
+});
 
-// 	jsonFlickrFeed = function(d){
-// 		var json = d;
-// 		var data = [];
-// 		var title = [];
+	jsonFlickrFeed = function(d){
+		var json = d;
+		var url = [];
+		var title = [];
+		var data = [url, title];
 
-// 		for (var i = 0; i < 7; i++) {
-// 			data.push(json.items[i].media.m.replace('_m', '_z'));
-// 			title.push(json.title.replace('Recent Uploads t', 'T'));
-// 			};
+		for (var i = 0; i < 7; i++) {
+			url.push(json.items[i].media.m.replace('_m', '_z'));
+			title.push(json.title.replace('Recent Uploads t', 'T'));
+			};
 
-// 		var template = tmpl($('#image_tmpl').html(), {data: {data, title}});
+		var template = tmpl($('#image_tmpl').html(), {data: data});
+		
+		$('.holidays_grid').html(template);
+	};
 
-// 		$('.holidays_grid').html(template);
-// 	};
-
-// 	return false;
-// }
+	return false;
+}
 
 	
 })
