@@ -1,0 +1,540 @@
+.clearfix::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.wrapper {
+	width: 320px;
+	margin: auto;
+}
+
+.header {
+	width: 320px;
+	margin: auto;
+	background: url('../img/header-background.jpg') top center no-repeat;
+	background-size: cover;
+
+
+	&_container {
+		box-sizing: border-box;
+		width: 320px;
+		margin: auto;
+		padding: 60px 20px;
+	}
+	
+	&_logo {
+		display: block;
+		margin: auto;
+		margin-bottom: 50px;
+	}
+
+	&_search {
+		width: 200px;
+		height: 40px;
+		margin: 30px 0 10px;
+		padding-left: 15px;
+		background-color: lighten($main-back-color, 15);
+		background: url('../img/search.png') -140px -135px no-repeat;
+		background-position: 90% 50%;
+		box-sizing: border-box;
+		border: 1px solid lighten($main-back-color, 15);
+		border-radius: 25px;
+		font-family: OpenSans;
+		font-size: 14px;
+		color: l$text-color;
+
+		&:focus {
+			outline: none;
+		}
+	}
+
+	&_button {
+		@include button ($accent-back-color, $accent-back-color, $main-color, 14px);
+		padding: 5px 20px;
+	}
+
+	&_head {
+		margin: 55px 0;
+		font-size: 35px;
+		color: $main-color;
+		font-family: OpenSans;
+		font-weight: 300;
+	}
+
+	&_text {
+		font-family: OpenSans;
+		font-size: 14px;
+		color: $main-color;
+	}
+}
+
+.screen {
+	&-wrapper {
+		width: 100%;
+		background-color: $accent-back-color;
+	}
+
+	&_content {
+		padding: 60px 20px 0 20px;
+		margin-bottom: 40px;
+	}
+
+	&_head {
+		margin-bottom: 25px;
+		font-family: OpenSans;
+		font-size: 28px;
+		font-weight: 300;
+		color: $main-color;
+		text-align: center;
+	}
+
+	&_text {
+		margin-bottom: 25px;
+		font-family: OpenSans;
+		font-size: 14px;
+		color: $main-color;
+	}
+
+	&_image {
+		display: block;
+		width: 100%;
+	}
+
+	&_button {
+		@include button ($accent-color, $accent-color, $main-color, 14px);
+		display: block;
+		margin: auto;
+		padding: 5px 20px;
+	}
+}
+
+.text {
+	padding: 60px 20px 20px 20px;
+	
+	&-wrapper {
+		width: 100%;
+		background-color: #f4f8fb;
+	}
+	
+	&_item {
+		margin-bottom: 50px;
+	}
+
+	&_head {
+		font-family: OpenSans;
+		font-size: 20px;
+		font-weight: 300;
+		text-align: center;
+		color: $header-color;
+	}
+
+	&_tag {
+		margin: 20px 0;
+		font-family: OpenSans;
+		font-size: 15px;
+		font-weight: 300;
+		color: $header-color;
+	}
+
+	&_content {
+		margin-bottom: 35px;
+		font-family: OpenSans;
+		font-size: 12px;
+		color: lighten($header-color, 15);
+	}
+
+	&_button {
+		@include button ($accent-color, $accent-color, $main-color, 14px);
+		display: block;
+		margin: auto;
+		padding: 5px 20px;
+	}
+
+}
+
+.design {
+	padding: 60px 20px 0;
+	margin: auto;
+
+	&-wrapper {
+		position: relative;
+		width: 100%;
+		background-color: $main-back-color;
+	}
+
+	&-favicon {
+		width: 120px;
+		height: 33px;
+		margin-left: -60px;
+		position: absolute;
+		top: -2px;
+		left: 50%;
+		z-index: 2;
+		display: block;
+		background-image: url('../img/sprite.png');
+		background-position: 0px 0px;	
+	}
+
+	&_head {
+		margin-bottom: 25px;
+		font-family: OpenSans;
+		font-weight: 300;
+		font-size: 28px;
+		color: $main-color;
+		text-align: center;
+	}
+
+	&_text {
+		font-family: OpenSans;
+		color: $text-color;
+		font-size: 14px;
+	}
+
+	&_image {
+		display: block;
+		width: 100%;
+
+		&-container {
+			margin-top: 35px;
+		}
+	}
+
+}
+
+.about {
+	margin: auto;
+	padding: 60px 20px;
+
+	&-wrapper {
+		background-color: $sub-back-color;
+		width: 100%;
+	}
+
+	&_item {
+		margin-bottom: 50px;
+	}
+
+	&_number {
+		color:  darken($main-back-color, 15);
+	}
+
+	&_head {
+		margin-bottom: 10px;
+		font-family: OpenSans;
+		font-size: 18px;
+		color: $main-color;
+	}
+
+	&_text {
+		font-family: OpenSans;
+		font-size: 14px;
+		color: $text-color;
+	}
+
+	&_favicon {
+		display: block;
+		width: 46px;
+		height: 46px;
+		margin-bottom: 15px;
+		background-image: url('../img/sprite.png');
+		background-position: -120px 0;
+
+		&--refinement {
+			background-position: -53px -33px;
+			width: 44px;
+			height: 44px;
+		}
+
+		&--dive {
+			background-position: 0 -33px;
+			width: 53px;
+			height: 44px;
+		}
+
+		&--research {
+			background-position: 0 -77px;
+			width: 45px;
+			height: 45px;
+		}
+
+
+	}
+
+	&_text {
+		clear: both;
+	}
+}
+
+.conectivity {
+	margin: auto;
+
+	&-wrapper {
+		width: 100%;
+		background-color: #f4f8fb;
+	}
+
+	&_content {
+		
+		margin-bottom: 40px;
+		padding: 0 20px;
+		padding-top: 60px;
+	}
+
+	&_favicon {
+		float: left;
+		width: 43px;
+		height: 31px;
+		margin-bottom: 15px;
+		background-image: url('../img/sprite.png');
+		background-position: -120px -46px;
+	}
+
+	&_head {
+		float: left;
+		margin-top: 8px;
+		margin-left: 10px;
+		font-family: OpenSans;
+		font-weight: 300;
+		font-size: 25px;
+		color: $header-color;
+	}
+
+	&_tag {
+		margin: 20px 0;
+		font-family: OpenSans;
+		font-weight: 300;
+		color: $text-color;
+		font-size: 18px;
+	}
+
+	&_text {
+		font-family: OpenSans;
+		font-size: 14px;
+		color: $header-color;
+	}
+
+	&_image {
+		width: 100%;
+		display: block;
+	}
+}
+
+.news {
+	margin: auto;
+
+	&-wrapper {
+		width: 100%;
+	}
+	
+	&_image {
+		width: 100%;
+		display: block;
+	}
+
+	&_article {
+		position: relative;
+		padding: 60px 20px;
+		background-color: $accent-back-color;
+		color: $main-color;
+	}
+
+	&_date {
+		display: block;
+		margin-bottom: 10px;
+		font-family: OpenSans;
+		font-style: italic;
+		font-size: 8px;
+	}
+
+	&_head {
+		margin-bottom: 40px;
+		font-family: OpenSans;
+		font-weight: 300;
+		font-style: italic;
+	}
+
+	&_author-pic {
+		float: left;
+		width: 40px;
+	}
+
+	&_author-name {
+		float: left;
+		margin-top: 15px;
+		margin-left: 15px;
+	}
+
+	&_latest {
+		display: block;
+		padding: 5px;
+		background-color: #000;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		font-family: OpenSans;
+		font-size: 10px;
+	}
+}
+
+.comment {
+	margin:auto
+	
+	&-wrapper {
+		width: 100%;
+		background-color: #f4f8fb;
+	}
+
+	&_image {
+		display: block;
+		width: 100%;
+	}
+	
+	&_content {
+		padding: 25px 20px 45px;
+		position: relative;
+	}
+
+	&_head {
+		margin-bottom: 20px;
+		font-family: OpenSans;
+		font-weight: 300;
+		font-size: 16px;
+		color: $header-color;
+	}
+
+	&_text {
+		font-family: OpenSans;
+		font-size: 12px;
+		color: $text-color;
+	}
+
+	&_count {
+		position: absolute;
+		bottom: 4px;
+		font-family: OpenSans;
+		font-weight: 700;
+		font-size: 10px;
+		color: $text-color;
+
+		&-number {
+			padding-right: 4px;
+			border-right: 1px solid lighten($text-color, 20);
+			font-weight: 300;
+			font-size: 18px;
+		}
+	}
+}
+
+.conclusion {
+	margin: auto;
+
+	&-wrapper {
+		width: 100%;
+	}
+
+	&_content {
+		padding: 65px 20px 45px;
+		background-color: $accent-back-color;
+		color: $main-color;
+	}
+
+	&_head {
+		margin-bottom: 40px;
+		font-family: OpenSans;
+		font-weight: 300;
+		font-style: italic;
+	}
+
+	&_author-pic {
+		float: left;
+		width: 40px;
+	}
+
+	&_author-name {
+		float: left;
+		margin-top: 15px;
+		margin-left: 15px;
+	}
+}
+
+.footer {
+	overflow: hidden;
+	box-sizing: border-box;
+	margin: auto;
+	padding: 60px 20px 20px;
+	background: $sub-back-color;
+	color: white;
+
+	&_content {
+		margin-bottom: 40px;
+	}
+
+	&_head {
+		margin-bottom: 20px;
+		font-family: OpenSans;
+		font-weight: 700;
+		font-size: 13px;
+	}
+
+	&_text {
+		font-family: OpenSans;
+		font-size: 10px;
+
+		&--small {
+			font-size: 8px;
+			text-align: center;
+		}
+	}
+
+	&_link {
+		text-decoration: none;
+		color: $main-color;
+		font-family: OpenSans;
+		font-size: 10px;
+	}
+
+	&_form {
+		margin-bottom: 25px;
+	}
+
+	&_action {
+		margin-bottom: 10px;
+	}
+
+	&_input {
+		box-sizing: border-box;
+		height: 30px;
+		width: 235px;
+		padding-left: 25px;
+		font-family: OpenSans;
+		font-size: 13px;
+		border: none;
+		float: left;
+
+		&:focus {
+			outline: none;
+		}
+	}
+
+	&_button {
+		height: 30px;
+		width: 38px;
+		background-color: $accent-back-color;
+		border: none;
+		float: left;
+		outline: none;
+		color: $main-color;
+	}
+
+	&_lists {
+		margin-bottom: 30px;
+		margin-right: 20px;
+		text-align: left;
+		float: left;
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}
