@@ -96,6 +96,7 @@
 }
 
 .result {
+	
 
 	&_item {
 		margin-right: 85px;
@@ -107,7 +108,7 @@
 }
 
 .filter {
-
+	width: 840px;
 	&_checkbox {
 		margin-left: 22px;
 	}
@@ -135,6 +136,7 @@
 
 .menu {
 	display: block;
+	clear: both;
 	float: left;
 
 	&-main {
@@ -142,6 +144,7 @@
 		height: 100%;
 		position: relative;
 		padding-bottom: 150px;
+		float: left;
 
 		&_item {
 			box-sizing: border-box;

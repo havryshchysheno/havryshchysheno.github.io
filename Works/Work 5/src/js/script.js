@@ -1,3 +1,5 @@
+
+		//Preloader
 $(window).on('load', function () {
 	var $preloader = $('.page-preloader'),
 	$spinner   = $preloader.find('.spinner');
@@ -15,6 +17,10 @@ $( '#mobile-menu' ).multilevelpushmenu({
 
 $( '#show-menu' ).click(function(){
 	$( '#mobile-menu' ).multilevelpushmenu( 'expand' );
+});
+
+$('#subMenu-button').click(function(e) {
+	e.preventDefault();
 });
 
 $('.content').click(function () {
