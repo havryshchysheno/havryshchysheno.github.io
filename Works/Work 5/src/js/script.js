@@ -8,6 +8,8 @@ $(window).on('load', function () {
 });
 
 $(function () {
+		//Custom select list
+tamingselect();
 
 		// Mobile menu
 $( '#mobile-menu' ).multilevelpushmenu({
@@ -21,10 +23,6 @@ $( '#show-menu' ).click(function(){
 
 $('#menu-button').on('tap', function(e) {
 	e.preventDefault();
-});
-
-$(".content").on("swiperight",function(){
-	$( '#mobile-menu' ).multilevelpushmenu( 'expand' );
 });
 
 $('.content').click(function () {

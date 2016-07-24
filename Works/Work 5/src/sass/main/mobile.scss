@@ -122,6 +122,8 @@
 		&_link {
 			color: $aside-color;
 			text-decoration: none;
+			font-family: Cabin;
+			font-weight: 400;
 
 			&--curr {
 				display: block;

@@ -13,7 +13,7 @@ var spritesmith = require('gulp.spritesmith')
 
 gulp.task('js', function () {
   'use strict';
-  gulp.src(['src/js/jquery.js', 'src/js/ion.rangeSlider.js','src/js/jquery.slicknav.js','src/js/modernizr.custom.js','src/js/classie.js','src/js/mlpushmenu.js','src/js/flexslider-min.js', 'src/js/script.js'])
+  gulp.src(['src/js/jquery.js', 'src/js/ion.rangeSlider.js','src/js/select.js','src/js/mlpushmenu.js', 'src/js/script.js'])
     .pipe(concat('app.min.js'))
     .pipe(uglify())
     .pipe(gulp.dest('dist/js/'));
