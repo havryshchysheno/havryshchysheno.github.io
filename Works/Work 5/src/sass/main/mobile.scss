@@ -319,9 +319,10 @@
 
 	&_image {
 		display:block;
-		height: 100%;
+		width: 100%;
 
 		&-wrapper {
+			display: block;
 			width: 270px;
 		}
 	}
