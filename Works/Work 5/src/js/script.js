@@ -19,8 +19,12 @@ $( '#show-menu' ).click(function(){
 	$( '#mobile-menu' ).multilevelpushmenu( 'expand' );
 });
 
-$('#subMenu-button').click(function(e) {
+$('#menu-button').on('tap', function(e) {
 	e.preventDefault();
+});
+
+$(".content").on("swiperight",function(){
+	$( '#mobile-menu' ).multilevelpushmenu( 'expand' );
 });
 
 $('.content').click(function () {
