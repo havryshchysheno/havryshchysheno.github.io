@@ -1,0 +1,145 @@
+@import '../../mq';
+
+@media #{$desktopWide} {
+	.wrapper {
+		width: 1640px;
+	}
+
+	.main {
+		width: 1200px;
+	}
+
+	.header {
+		padding: 11px 0;
+
+		&_logo {
+			margin-left: 35px;
+		}
+
+		&_top-bar {
+			margin-left: 35px;
+		}
+
+		&_input {
+
+			&-container {
+				width: 296px;
+			}
+		}
+
+		&-menu {
+			font-size: 16px;
+
+			&-wrapper {
+				margin-right: 55px;
+			}
+			
+			&_item {
+				
+				margin-right: 25px;
+			}
+		}
+	}
+
+	.menu {
+		&-main {
+			padding-bottom: 119px; 
+		}
+	}
+
+	.result {
+		padding: 0;
+
+		&_head {
+			font-size: 18px;
+			text-align: left;
+			margin: 25px 0 35px 10px;
+		}
+
+		&_item {
+			margin-right: 25px;
+			
+			&--last {
+				margin-right: 0;
+			}
+		}
+
+		&_price {
+			font-size: 30px;
+
+			&-curr {
+				font-size: 18px;
+			}
+		}
+
+		&_button {
+			font-size: 16px;
+		}
+	}
+
+	.filter {
+		padding: 30px 15px;
+
+		&_head {
+			margin-bottom: 30px;
+			text-align: left;
+			font-size: 24px;
+		}
+
+		&_range {
+
+			&-header {
+				text-align: left;
+			}
+		}
+		
+		&_input {
+
+			&-group {
+				float: left;
+				margin-right: 65px;
+			}
+			&-wrapper {
+				padding: 0;
+				margin-right: 60px;
+				margin-bottom: 0;
+			}
+		}
+
+
+
+		&_checkbox {
+			text-align: left;
+
+		}
+
+		&_button {
+			clear: both;
+			float: left;
+			width: 130px;
+			height: 35px;
+			margin-top: 20px;
+		}
+	}
+
+	.aside {
+
+		&_container {
+			padding: 24px;
+		}
+
+		&_head {
+			font-size: 21px;
+		}
+
+		&_stat-text {
+			font-size: 18px;
+		}
+	}
+
+
+
+
+
+
+}
